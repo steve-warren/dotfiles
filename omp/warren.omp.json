@@ -9,8 +9,8 @@
           "foreground": "#ffffff",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "style": "diamond",
-          "template": " {{ .Name }} ",
-          "type": "shell"
+          "template": "{{ if .SSHSession }}\uF817 {{ end }}{{ lower .HostName }} ",
+          "type": "session"
         },
         {
           "background": "#ef5350",
@@ -111,7 +111,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Shell }} in {{ .Folder }}",
+  "console_title_template": "{{.UserName}}@{{.HostName}} {{.Shell}} in {{.PWD}}",
   "final_space": true,
   "version": 2
 }
