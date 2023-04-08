@@ -2,3 +2,4 @@ oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/steve-warren/do
 
 Import-Module -Name Terminal-Icons
 Set-Alias g git
+Set-Alias d dotnet
