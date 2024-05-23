@@ -1,2 +1,0 @@
-git clone https://github.com/steve-warren/dotfiles.git $env:USERPROFILE/.dotfiles | Invoke-Expression
-New-Item -ItemType SymbolicLink -Path $env:USERPROFILE/Documents/Powershell/Microsoft.Powershell_profile.ps1 -Target $env:USERPROFILE/.dotfiles/.config/pwsh/Microsoft.Powershell_profile.ps1
