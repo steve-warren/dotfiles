@@ -1,0 +1,15 @@
+import = [
+    "~/.config/alacritty/themes/tokyo-night.toml"
+]
+
+[font]
+size = 19
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+
+[window]
+opacity = 0.70
+blur = true
+decorations = "none"
+startup_mode = "maximized"

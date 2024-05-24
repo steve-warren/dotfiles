@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config $env:USERPROFILE/.dotfiles/omp/warren.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config $env:USERPROFILE/.config/ohmyposh/takuya.omp.json | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 
